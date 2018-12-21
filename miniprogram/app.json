@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/start/start","pages/weather/weather",
+    
+    "pages/wifi_station/index/index",
+      
+    "pages/wifi_station/tianqi/tianqi"
+    
+  ],
+  
+  
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#121212",
+    "navigationBarTitleText": "智能宿舍",
+    "navigationBarTextStyle": "#fff",
+    "backgroundColor": "#ddd"
+  }}

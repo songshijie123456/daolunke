@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class='btns'>
+      
+      <button bindtap='identifyimage'>获取c楼数据</button>
+    </view>
+<image src="/images/timg.jpg"></image>
+<view class="container">
+  <view class="userinfo">
+  <image>src="/images/timg.jpg"</image>
+   
+     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 宿管使用</button>
+    <block wx:else>
+    
+      
+      
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+   <text>
+   
+   制作者：潘昊宇、宋世杰、王漪涵、徐永华</text>
+  </view>
+
+  <view class='selection'>
+    <image src='{{tempFilePaths}}' class='img' mode="aspectFit"></image>
+    
+  </view>
+
+  <view class="usermotto">
+  
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
